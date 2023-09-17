@@ -13,9 +13,13 @@ let candidateAnswer = "";
 
 
 //TODO: Variables for Part 2
-let questions[];
-let correctAnswers[];
-let candidateAnswers;
+let questions =  ['Who was the first American woman in space?	' , 
+'True or false: 5 kilometer == 5000 meters?' , 
+'(5 + 3)/2 * 10 = ? '	, 
+' Given the array [8, Orbit, Trajectory, 45] what entry is at index 2? ' , 
+'What is the minimum crew size for the ISS?	'];
+let correctAnswers = ['Sally Ride' , 'true' , 40 ,'Trajectory' , 3 ];
+let candidateAnswers = "";
 
 
 
@@ -26,6 +30,47 @@ function askForName() {
 
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
+
+  console.log(questions[0]);
+  candidateAnswers = input.question("Enter your Answer: ");
+  /*if (candidateAnswers == correctAnswers[0] ){
+    console.log("correct answer");
+  } else {
+    console.log("wrong answer");
+  }*/
+
+  console.log(questions[1]);
+  candidateAnswers = input.question("Enter your Answer: ");
+  if (candidateAnswers == correctAnswers[1] ){
+    console.log("correct answer");
+  } else {
+    console.log("wrong answer");
+  }
+
+  console.log(questions[2]);
+  candidateAnswers = input.question("Enter your Answer: ");
+  if (candidateAnswers == correctAnswers[2] ){
+    console.log("correct answer");
+  } else {
+    console.log("wrong answer");
+  }
+
+  console.log(questions[3]);
+  candidateAnswers = input.question("Enter your Answer: ");
+  if (candidateAnswers == correctAnswers[3] ){
+    console.log("correct answer");
+  } else {
+    console.log("wrong answer");
+  }
+
+  console.log(questions[4]);
+  candidateAnswers = input.question("Enter your Answer: ");
+  if (candidateAnswers == correctAnswers[4] ){
+    console.log("correct answer");
+  } else {
+    console.log("wrong answer");
+  }
+
   console.log(question);
   candidateAnswers = input.question("Enter your Answer: ");
 
