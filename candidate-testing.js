@@ -9,7 +9,7 @@ let candidateName = "";
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question = "Who was the first American woman in space? ";
 let correctAnswer = "Sally Ride";
-let candidateAnswer = " ";
+let candidateAnswer = "";
 
 
 //TODO: Variables for Part 2
@@ -43,7 +43,6 @@ function gradeQuiz(candidateAnswers) {
 
   let grade;  //TODO 3.2 use this variable to calculate the candidates score.
 
-
   return grade;
 }
 
@@ -67,3 +66,4 @@ module.exports = {
   gradeQuiz: gradeQuiz,
   runProgram: runProgram
 };
+
